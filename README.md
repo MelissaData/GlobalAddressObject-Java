@@ -1,4 +1,4 @@
-# Melissa GLobal Address Object Windows Java
+# Melissa Global Address Object Windows Java
 
 
 ## Purpose
@@ -9,8 +9,7 @@ Please feel free to copy or embed this code to your own project. Happy coding!
 
 For the latest Melissa Global Address Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/global-address-object/
 
-For further details, please visit: https://wiki.melissadata.com/index.php?title=Global_Address_Object:Reference
-
+For further details, please visit: https://docs.melissa.com/on-premise-api/global-address-object/global-address-object-quickstart.html
 
 The console will ask the user for:
 
@@ -164,7 +163,7 @@ Melissa Updater is a CLI application allowing the user to update their Melissa a
 1.  Using Melissa Updater
 	- It will handle all of the data download/path and dll(s) for you.
 	- #### **Please be aware that this object will require about 100GB of memory** 
-2.  If you already have the latest GDQS Release (ZIP), you can find the data file(s) and dll(s) in there
+2.  If you already have the latest Release (ZIP), you can find the data file(s) and dll(s) in there
 	- Use the location of where you copied/installed the data and update the "$DataPath" variable in the powershell script.
 	- Copy all the dll(s) mentioned above into the `MelissaAddressObjectWindowsJava` project folder.
 	
