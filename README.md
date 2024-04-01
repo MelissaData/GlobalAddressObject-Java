@@ -44,16 +44,11 @@ And return
 - ResultCodes
 
 
-
-----------------------------------------
-
 ## Tested Environments
 
-- Windows 64-bit Java 19
-- Powershell 5.1
-- Melissa data files for 2023-Q4
+- Windows 64-bit Java 19, Powershell 5.1
+- Melissa data files for 2024-Q1
 
-----------------------------------------
 
 ## Required Files and Programs
 
@@ -111,8 +106,6 @@ This is the c++ code of the Melissa Object.
 - mdSuiteFinder.db
 - month256.dat
 
- 
-----------------------------------------
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 This project is compatible with Java 19
@@ -162,19 +155,13 @@ Melissa Updater is a CLI application allowing the user to update their Melissa a
 #### Different ways to get data file(s)
 1.  Using Melissa Updater
 	- It will handle all of the data download/path and dll(s) for you.
-	- #### **Please be aware that this object will require about 100GB of memory** 
-2.  If you already have the latest Release (ZIP), you can find the data file(s) and dll(s) in there
-	- Use the location of where you copied/installed the data and update the "$DataPath" variable in the powershell script.
-	- Copy all the dll(s) mentioned above into the `MelissaAddressObjectWindowsJava` project folder.
+	- **Please be aware that this object will require about 100GB of disk space** 
+2.  If you already have the latest release zip, you can find the data file(s) in there
+	- To pass in your own data file path directory, you may either use the '-dataPath' parameter or enter the data file path directly in interactive mode.
+	- Comment out this line "DownloadDataFiles -license $License" in the powershell script.
+	- This will prevent you from having to redownload all the files.
 	
 ## Run Powershell Script
-Please consult the release notes and wiki for the best way to input the parameters.
-
-Release Notes: https://releasenotes.melissa.com/on-premise-api/global-address-object/
-
-Wiki: https://wiki.melissadata.com/index.php?title=Result_Code_Details#Global_Address_Object
-
-
 Parameters:
 - -addressLine1: a test address line 1
 - -addressLine2 (optional): a test address line 2
@@ -186,6 +173,7 @@ Parameters:
  	
   These are convenient when you want to get results for a specific address in one run instead of testing multiple addresses in interactive mode.
 
+- -dataPath (optional): a data file path directory to test the Global Address Object
 - -license (optional): a license string to test the Global Address Object
 - -quiet (optional): add to the command if you do not want to get any console output from the Melissa Updater
 
