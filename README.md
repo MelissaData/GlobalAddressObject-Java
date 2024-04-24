@@ -61,8 +61,6 @@ This is the c++ code of the Melissa Object.
 - mdGlobalAddr.dll
 - mdRightFielder.dll
 
-
-
 #### Data File(s)
 - Addr.dbf
 - Congress.csv
@@ -217,8 +215,6 @@ Troubleshooting for errors found while running your program.
 | Error      | Description |
 | ----------- | ----------- |
 | ErrorRequiredFileNotFound      | Program is missing a required file. Please check your Data folder and refer to the list of required files above. If you are unable to obtain all required files through the Melissa Updater, please contact technical support below. |
-| ErrorDatabaseExpired   | .db file(s) are expired. Please make sure you are downloading and using the latest release version. (If using the Melissa Updater, check powershell script for '$RELEASE_VERSION = {version}'  and change the release version if you are using an out of date release).     |
-| ErrorFoundOldFile   | File(s) are out of date. Please make sure you are downloading and using the latest release version. (If using the Melissa Updater, check powershell script for '$RELEASE_VERSION = {version}'  and change the release version if you are using an out of date release).    |
 | ErrorLicenseExpired   | Expired license string. Please contact technical support below. |
 
 
