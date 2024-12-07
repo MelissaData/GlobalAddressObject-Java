@@ -47,7 +47,7 @@ And return
 ## Tested Environments
 
 - Windows 64-bit Java 19, Powershell 5.1
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 
 ## Required Files and Programs
@@ -136,8 +136,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/GlobalAddressObject-Java
-$ cd GlobalAddressObject-Java
+git clone https://github.com/MelissaData/GlobalAddressObject-Java
+cd GlobalAddressObject-Java
 ```
 
 #### Set up Melissa Updater 
@@ -180,25 +180,25 @@ When you have modified the script to match your data location, let's run the scr
 
 	The script will prompt the user for an address line 1, address line 2, address line 3, locality, administrative area, postal code, and country, then use the provided inputs to test Global Address Object. For example:
 	```
-	$ .\MelissaGlobalAddressObjectWindowsJava.ps1
+	.\MelissaGlobalAddressObjectWindowsJava.ps1
 	```
 	For quiet mode:
 	```
-	$ .\MelissaGlobalAddressObjectWindowsJava.ps1 -quiet
+	.\MelissaGlobalAddressObjectWindowsJava.ps1 -quiet
 	```
 - Command Line 
 
 	You can pass an address line 1, address line 2, address line 3, locality, administrative area, postal code, country, and a license string into the ```-addressLine1```, ```-addressLine2```, ```-addressLine3```, ```-locality```, ```-administrativeArea```, ```-postalCode```, ```-country```, and ```-license``` parameters respectively to test Global Address Object. For example:
 
 	```
-	$ .\MelissaGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" 
-	$ .\MelissaGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -license "<your_license_string>"
+	.\MelissaGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" 
+	.\MelissaGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -license "<your_license_string>"
 	```
 
 	For quiet mode:
 	```
-	$ .\MelissaGlobalGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -quiet
-	$ .\MelissaGlobalGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -license "<your_license_string>" -quiet
+	.\MelissaGlobalGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -quiet
+	.\MelissaGlobalGlobalAddressObjectWindowsJava.ps1 -addressLine1 "Melissa Data GmbH" -addressLine2 "Cäcilienstr. 42-44" -addressLine3 "50667 Köln" -country "Germany" -license "<your_license_string>" -quiet
 	```
 
 This is the expected output from a successful setup for interactive mode:
