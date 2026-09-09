@@ -7,7 +7,7 @@ This code showcases the Melissa Global Address Object using Java.
 
 Please feel free to copy or embed this code to your own project. Happy coding!
 
-For the latest Melissa Global Address Object release notes, please visit: https://releasenotes.melissa.com/on-premise-api/global-address-object/
+To view the latest Melissa Global Address Object release notes or to subscribe to product notifications, please visit: https://releasenotes.melissa.com/on-premise-api/global-address-object/
 
 For further details, please visit: https://docs.melissa.com/on-premise-api/global-address-object/global-address-object-quickstart.html
 
@@ -46,7 +46,7 @@ And return
 
 ## Tested Environments
 
-- Windows 64-bit Java 19, Powershell 5.1
+- Windows 11 64-bit Java 19, Powershell 5.1
 - Melissa data files for 2026-Q3
 
 
@@ -79,7 +79,7 @@ This is the c++ code of the Melissa Object.
 - dph256.hsy
 - dph256.hsz
 - ews.txt
-- icudt52l.dat
+- icudt74l.dat
 - lcd256
 - mdAddr.dat
 - mdAddr.lic
